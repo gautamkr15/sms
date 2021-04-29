@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+  <!-- Custom CSS --> 
+  <link rel="stylesheet" href="css/index.css">
+  <title>sms</title>
+</head>
+                     
+<body>
+  <!-- Start Nagigation -->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark pl-5 fixed-top">
+    <a href="#" class="navbar-brand">SMS</a>
+    <span class="navbar-text text-white">Customer's Happiness is our Aim</span>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="myMenu">
+      <ul class="navbar-nav pl-5 custom-nav">
+        <li class="nav-item"><a href="index.html" class="nav-link"><i  class="fa fa-home"></i>Home</a></li>
+        <li class="nav-item"><a href="#Services" class="nav-link"><i class="fa fa-clone"></i>Services</a></li>
+        <li class="nav-item"><a href="#Registration" class="nav-link"><i class="fa fa-registered"></i>Registration</a></li>
+        <li class="nav-item"><a href="login.html" class="nav-link"><i class="fa fa-sign-in"></i>Login</a></li>
+        <li class="nav-item"><a href="#Contact" class="nav-link"><i class="fa fa-phone"></i>Contact</a></li>
+      </ul>
+    </div>
+  </nav> <!-- End Navigation -->
+
+  <!-- Start Header Jumbotron-->
+  <header class="jumbotron back-image" style="background-image: url(images/ab.jpg);">
+    <div class="text-center" style="margin-top: 120px;">
+      <h1 class="text-uppercase text-danger font-weight-bold">Welcome to SMS</h1>
+      <p class="font-italic font-weight-bold st text-white">Customer's Happiness is our Aim</p>
+      <a href="login.html" class="btn btn-success mr-4">Login</a>
+      <a href="#" target="_blank" class="btn btn-danger mr-4">Sign Us</a>
+    </div>
+  </header> <!-- End Header Jumbotron -->
+
+  <!-- Start Services -->
+  <div class="container text-center border-bottom" id="Services"> 
+    <h2>Our Services</h2>
+    <div class="row mt-4">
+      <div class="col-sm-4 mb-4">
+        <a href="#"><i class="fab fa-android fa-10x text-success"></i></a>
+        <h4 class="mt-4">Android Application</h4>
+      </div>
+      <div class="col-sm-4 mb-4">
+        <a href="#"><i class="fas fa-desktop fa-10x text-primary"></i></a>
+        <h4 class="mt-4">Web Application</h4>
+      </div>
+      <div class="col-sm-4 mb-4">
+        <a href="#"><i class="fas fa-database fa-10x text-info"></i></a>
+        <h4 class="mt-4">Database</h4>
+      </div>
+    </div>
+  </div> <!-- End Services -->
+  <!-- start registration-->
+  
+<div class="container pt-5" id="registration">
+  <h2 class="text-center">Create an Account</h2>
+  <div class="row mt-4 mb-4">
+    <div class="col-md-6 offset-md-3">
+      <form action="" class="shadow-lg p-4" method="POST">
+        <div class="form-group">
+          <i class="fas fa-user"></i><label for="name" class="pl-2 font-weight-bold">Name</label><input type="text"
+            class="form-control" placeholder="Name" name="rName">
+        </div>
+        <div class="form-group">
+          <i class="fas fa-user"></i><label for="email" class="pl-2 font-weight-bold">Email</label><input type="email"
+            class="form-control" placeholder="Email" name="rEmail">
+          <!--Add text-white below if want text color white-->
+          <small class="form-text">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <i class="fas fa-key"></i><label for="pass" class="pl-2 font-weight-bold">New
+            Password</label><input type="password" class="form-control" placeholder="Password" name="rPassword">
+        </div>
+        <button type="submit" class="btn btn-danger mt-5 btn-block shadow-sm font-weight-bold" name="rSignup">Sign Up</button>
+        <em style="font-size:10px;">Note - By clicking Sign Up, you agree to our Terms, Data
+          Policy and Cookie Policy.</em>
+              </form>
+    </div>
+  </div>
+</div> 
+<!--end registration-->
+  <!-- Start Team  -->
+  <div class="jumbotron bg-dark" id="Team">   <!-- Start Team Jumbotron -->
+    <div class="container">     <!-- Start Team Container -->
+      <h2 class="text-center text-white">Customer Review</h2>    <!-- Team Heading-->
+      <div class="row mt-5">    <!-- Start Team Row-->
+        <div class="col-lg-3 col-sm-6">     <!-- Start Team 1st Column-->
+          <div class="card shadow-lg mb-2">
+            <div class="card-body text-center">
+              <img src="images/avtar1.jpeg" class="img-fluid" style="border-radius: 100px;">
+              <h4 class="card-title">Hardeep Singh</h4>
+              <p class="card-text">Itaque illo explicabo voluptatum, saepe libero rerum, ad ducimus voluptas nesciunt debitis numquam.</p>
+            </div>
+          </div>
+        </div>    <!-- End Team 1st Column-->
+
+        <div class="col-lg-3 col-sm-6">     <!-- Start Team 2nd Column-->
+          <div class="card shadow-lg mb-2">
+            <div class="card-body text-center">
+              <img src="images/avtar2.jpeg" class="img-fluid" style="border-radius: 100px;">
+              <h4 class="card-title">Chandan Thakur</h4>
+              <p class="card-text">Itaque illo explicabo voluptatum, saepe libero rerum, ad ducimus voluptas nesciunt debitis numquam.</p>
+            </div>
+          </div>
+        </div>      <!-- End Team 2nd Column-->
+
+        <div class="col-lg-3 col-sm-6">       <!-- Start Team 3rd Column-->
+          <div class="card shadow-lg mb-2">
+            <div class="card-body text-center">
+              <img src="images/avtar3.jpeg" class="img-fluid" style="border-radius: 100px;">
+              <h4 class="card-title">Shubham Nandi</h4>
+              <p class="card-text">Itaque illo explicabo voluptatum, saepe libero rerum, ad ducimus voluptas nesciunt debitis numquam.</p>
+            </div>
+          </div>
+        </div>       <!-- End Team 3rd Column-->
+
+        <div class="col-lg-3 col-sm-6">        <!-- Start Team 4th Column-->
+          <div class="card shadow-lg mb-2">
+            <div class="card-body text-center">
+              <img src="images/avtar4.jpeg" class="img-fluid" style="border-radius: 100px;">
+              <h4 class="card-title">Md Saif</h4>
+              <p class="card-text">Itaque illo explicabo voluptatum, saepe libero rerum, ad ducimus voluptas nesciunt debitis numquam.</p>
+            </div>
+          </div>
+        </div>     <!-- End Team 4th Column-->
+      </div>    <!-- End Team Row-->
+    </div>  <!-- End Team Container -->
+  </div> <!-- End Team Jumbotron -->
+
+  <!--Start Contact Us-->
+  <div class="container" id="Contact"> <!--Start Contact Us Container-->
+    <h2 class="text-center mb-4">Contact US</h2>    <!-- Contact Us Heading -->
+    <div class="row">           <!--Start Contact Us Row-->
+      <div class="col-md-8">    <!--Start Contact Us 1st Column-->
+        <form action="#" method="post">
+          <input class="form-control" name="name" placeholder="Name" /><br />
+          <input class="form-control" name="phone" placeholder="Phone" /><br />
+          <input class="form-control" name="email" placeholder="E-mail" /><br />
+          <textarea class="form-control" name="text" placeholder="How can we help you?" style="height:150px;"></textarea><br />
+          <input class="btn btn-primary" type="submit" value="Send" /><br /><br />
+        </form>
+      </div>  <!-- End Contact Us 1st Column-->
+
+      <div class="col-md-4 text-center">    <!-- Start Contact Us 2nd Column-->
+        <strong>Headquarter:</strong> <br>
+        SMS Pvt Ltd, <br>
+         Jamshedpur <br>
+        Jharkhand - 831006 <br>
+        Phone: +00000000 <br> 
+        <a href="#" target="_blank">www.sms.com</a> <br>
+    
+        <br><br>
+        <strong>Ranchi Branch:</strong> <br>
+        SMS Pvt Ltd, <br>
+        Ranchi<br>
+        Jharkhand - 804002 <br>
+        Phone: +00000000 <br> 
+        <a href="#" target="_blank">www.sms.com</a> <br>
+      </div>    <!-- End Contact Us 2nd Column-->
+    </div>    <!-- End Contact Us Row-->
+  </div>  <!-- End Contact Us Container-->    <!-- End Contact Us -->
+
+  <!-- Start Footer-->
+  <footer class="container-fluid bg-dark text-white mt-5" style="border-top: 3px solid #DC3545;">
+    <div class="container">   <!-- Start Footer Container -->
+      <div class="row py-3">    <!-- Start Footer Row -->
+        <div class="col-md-6">      <!-- Start Footer 1st Column -->
+          <div>
+            <span>Follow Us: </span>
+            <a href="#facebook" target="_blank"><i class="fab fa-facebook-f px-3"></i></a>
+            <a href="#twitter" target="_blank"><i class="fab fa-twitter pr-3"></i></a>
+            <a href="#youtube" target="_blank"><i class="fab fa-youtube pr-3"></i></a>
+            <a href="#google" target="_blank"><i class="fab fa-google-plus-g pr-3"></i></a>
+           <a href="#whatsapp" target="_blank"><i class="fab fa-whatsapp pr-3"></i></a>
+          </div>
+        </div>    <!-- End Footer 1st Column -->
+
+        <div class="col-md-6 text-right">   <!-- Start Footer 2nd Column -->
+          <small> Designed by Gautam &copy; 2021. </small>
+		  <small class="ml-2"><a href="#Admin Login">Admin Login</a></small>
+        </div>    <!-- End Footer 2nd Column -->
+      </div>    <!-- End Footer Row -->
+    </div>    <!-- End Footer Container -->
+  </footer> <!-- End Footer -->
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+</html>
